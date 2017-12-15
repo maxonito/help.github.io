@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+body {
+  font-size: 10px;
+  font-family: "Roboto", sns-serif;
+}
+
+.big-text {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.main-nav {
+  list-style: none;
+  display: table-cell;
+  line-height: 5.5rem;
+  text-align: left;
+  padding-left: 0;
+}
+.main-nav-btn {
+  display: inline-block;
+  color: #fff;
+  background-color: #346fdb;
+  border: none;
+  font-size: 1.6rem;
+  padding: 1rem 3rem;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0 20px #346fdb;
+          box-shadow: 0 0 20px #346fdb;
+}
+.main-nav-link {
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-left: 2.5rem;
+  text-transform: uppercase;
+}
+.main-nav-link a {
+  color: #000;
+  line-height: 2.6rem;
+}
+.main-nav-link a:hover {
+  color: #346fdb;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  text-decoration: none;
+  border-bottom: 2px solid #346fdb;
+}
+.main-header {
+  dispaly: table;
+  height: 7rem;
+  margin: 2rem;
+  margin-bottom: 0;
+}
+.main-header-signature {
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: left;
+  margin-left: 1rem;
+}
+.main-content {
+  position: relative;
+  background: #fff url(../img/main/main-bg.jpg) center no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.main-content-bg {
+  position: absolute;
+  top: 85%;
+  left: 0;
+  width: 100%;
+}
+.main-content-arrow {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 6rem;
+}
+.main-content-arrow:hover {
+  -webkit-transform: translateY(25%);
+          transform: translateY(25%);
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+.main-content-text {
+  font-size: 2.4rem;
+  color: #000;
+  text-align: center;
+  line-height: 5rem;
+  padding-bottom: 10rem;
+}
+.main-content-subtitle {
+  font-size: 5rem;
+  color: #000;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.main-content-title {
+  font-size: 5rem;
+  color: #e63e79;
+  text-decoration: underline;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 10rem;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=style.css.map */
